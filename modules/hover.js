@@ -1,4 +1,4 @@
-function hoverHeader () {
+export function hoverHeader () {
     const header = document.querySelector(".header");
     const modal = document.getElementById("myModal");
     header.addEventListener("mouseover", e => {
@@ -14,4 +14,4 @@ function hoverHeader () {
         }
     })
 }
-export {hoverHeader};
+//export {hoverHeader};
